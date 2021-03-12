@@ -1,15 +1,12 @@
-import React from 'react'
-import { Navbar } from 'react-bootstrap'
-import './style.css'
-import NavBar from '../NavBar/NavBar'
+import React from "react";
+import NavBar from "../NavBar/NavBar";
+import "./style.css"
 
-
-
- const Header = () =>{
-     return(
-        <div className='back'>
-           <NavBar />
-        </div>
-     )
-}
-export default  Header
+const Header = () => {
+  return (
+    <div className="back">
+      <NavBar />
+    </div>
+  );
+};
+export default Header;

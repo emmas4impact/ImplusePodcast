@@ -1,5 +1,5 @@
 .back {
-    background: url('../../img/back.jpg') center center no-repeat;
+    background: url("../../img/back.jpg") center center no-repeat;
     background-size: cover;
     height: 100vh;
 }
