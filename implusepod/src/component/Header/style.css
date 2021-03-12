@@ -1,0 +1,16 @@
+.back {
+    background: url('../../img/back.jpg') center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.nav-bar {
+    padding: 50px 0 0 0 !important;
+}
+.font-small {
+    font-size: 12px !important;
+}
+.btn {
+    background: #2B3B5A !important;
+    border: none !important;
+    font-size: 12px !important;
+}
