@@ -1,0 +1,8 @@
+.text-center {
+  -webkit-transition: outline 10ms linear;
+  -moz-transition: outline 10ms linear;
+  -ms-transition: outline 10ms linear;
+  -o-transition: outline 10ms linear;
+  transition: outline 10ms linear;
+  color: rgb(160, 44, 9);
+}

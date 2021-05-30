@@ -16,7 +16,7 @@ const NavBar = (props) => {
     <Container {...props}>
       <Navbar className="nav-bar">
         <Navbar.Brand>
-          <Link to="/">ImpulsePodacast</Link>
+          <Link to="/" >ImpulsePodacast</Link>
         </Navbar.Brand>
 
         <Nav className="ml-auto">
