@@ -1,4 +1,8 @@
-.btn {
-    font-size: medium !important;
-    size: 2rem;
+.search {
+  width: 6rem;
+  height: 2.5rem;
+}
+
+@media screen {
+    
 }

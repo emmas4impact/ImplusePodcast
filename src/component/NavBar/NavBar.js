@@ -26,7 +26,7 @@ const NavBar = (props) => {
               placeholder="Search"
               className=" mr-sm-2"
             />
-            <Button className="btn" type="submit">Search</Button>
+            <Button className="search" type="submit">Search</Button>
           </Form>
           <Link to="/episodes" className="nav-link font-meddium">
             Episodes
@@ -34,8 +34,10 @@ const NavBar = (props) => {
           <Link to="/features" className="nav-link ml-4 font-middium">
             Download the Guide
           </Link>
-         
-          <Button className="btn ml-4">Listen to Podcast</Button>
+          <Link to="/About" className="nav-link ml-4 font-middium">
+            About
+          </Link>
+          <Button className="ml-4">Listen to Podcast</Button>
         </Nav>
       </Navbar>
       <Subcribe/>
